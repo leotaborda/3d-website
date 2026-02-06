@@ -109,7 +109,15 @@ main {
   width: 18rem;
   height: 2.5rem;
   border-radius: 50px;
-  background: linear-gradient(to right, #656565, #7f42a7, #6600c5, #5300a0, #757575, #656565);
+  background: linear-gradient(
+    to right,
+    #656565,
+    #7f42a7,
+    #6600c5,
+    #5300a0,
+    #757575,
+    #656565
+  );
   background-size: 200%;
   animation: animationGradient 2.5s linear infinite;
   box-shadow: 0 0 15px rgba(255, 255, 255, 0.3);
@@ -172,27 +180,99 @@ main {
 }
 
 .btn-get-started:hover {
-    background-color: #1a1a1a;
+  background-color: #1a1a1a;
 }
 
 .btn-signing-main {
-    text-decoration: none;
-    background-color: lightgray;
-    color: black;
-    padding: 0.6rem 2.5rem;
-    border-radius: 999px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 0.1em;
-    transition: background-color 0.2s ease;
+  text-decoration: none;
+  background-color: lightgray;
+  color: black;
+  padding: 0.6rem 2.5rem;
+  border-radius: 999px;
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  transition: background-color 0.2s ease;
 }
 
 .btn-signing-main:hover {
-    background-color: #e7e7e7;
+  background-color: #e7e7e7;
 }
 
 .robot-3d {
-    position: absolute;
-    top: 0;
-    right: -20%;
+  position: absolute;
+  top: 0;
+  right: -20%;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1300px) {
+  header {
+    padding: 1rem 0.5rem;
+  }
+
+  .content {
+    margin-top: 50%;
+  }
+
+  .robot-3d {
+    scale: 0.8;
+    top: -20%;
+    right: -2%;
+  }
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 1rem 0.1rem;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+    .btn-signing {
+        padding: 0.6rem 1.5rem;
+    }
+
+    .content {
+        margin-top: 25rem;
+    }
+
+    .robot-3d {
+        scale: 0.5;
+        top: -25%;
+        right: 0;
+    }
+
+    .content {
+        max-width: 30rem;
+        margin-left: 10%;
+    }
+
+    .tag-box {
+        width: 12rem;
+    }
+
+    .content h1 {
+        font-size: 2.5rem;
+    }
+
+    .description {
+        font-size: 1rem;
+    }
+
+    .btn-get-started {
+        font-size: 0.08rem;
+        padding: 0.5rem 1.2rem;
+    }
+
+    .btn-signing-main {
+        font-size: 0.8rem;
+        padding: 0.8rem 2rem;
+    }
 }
