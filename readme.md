@@ -34,3 +34,10 @@
 ## Configurações principais
 - **Cena 3D (Spline)**: URL configurada no atributo `url` do `<spline-viewer>` em `index.html`
 - **AOS**: inicializado no final do `index.html` com `AOS.init()` (animações controladas por `data-aos-*`)
+
+## Créditos / Referência
+Projeto desenvolvido seguindo o tutorial do canal **MiladiCode**:
+
+>YouTube: https://youtu.be/oskiEydAaok?si=ZdBv7DgTDSSZayc_
+
+[![Tutorial (MiladiCode)](https://img.youtube.com/vi/oskiEydAaok/maxresdefault.jpg)](https://youtu.be/oskiEydAaok?si=ZdBv7DgTDSSZayc_)
