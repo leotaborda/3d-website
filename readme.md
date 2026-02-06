@@ -1,7 +1,6 @@
 # 3D App Landing Page
 
 ![Preview (gradient)](img/img-page.png)
-Imagem da Página
 
 #### Landing page dark/minimalista com **hero 3D** (Spline) e animações de entrada usando **AOS (Animate On Scroll)**.
 
