@@ -19,10 +19,7 @@ Abra o arquivo [index.html](index.html) no navegador (recomendado usar a extens�
 1. Clone o repositório
 2. Abra a pasta no VS Code
 3. Execute o **Live Server** em [index.html](index.html)  
-   Ou simplesmente dê duplo clique em [index.html](index.html) para abrir no navegador.
+   Ou dê duplo clique em [index.html](index.html) para abrir no navegador.
 
-## Créditos
+## Spline
 - Cena 3D exibida pelo componente `<spline-viewer>` (URL configurada em [index.html](index.html)).
-
-## Licença
-Defina a licença do projeto (ex.: MIT) e adicione um arquivo `LICENSE` se desejar.
